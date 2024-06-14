@@ -33,10 +33,10 @@ const Body = () => {
             <p>We are not just regular uniform makers. We bear the interest of your brand in our minds, thereby creating visually appealing uniforms increasing patronage and sales.</p> 
         </div>
         <div>
-          We have worked with over 100 businesses local and internationally improving their brand identity and recognition. We take pride in our quality services, and premium delivery method. Reviews from our clients show that our customized uniforms and outfits have helped increase sales by 15%.
+          We have worked with over <span className='text-orange-700 font-bold'>100 businesses</span> local and international improving their brand identity and recognition. We take pride in our quality services, and premium delivery method. Reviews from our clients show that our customized uniforms and outfits have helped increase sales by 15%.
         </div>
         <div>
-          <h1>Our Services</h1>
+          <h1 className='font-bold'>Our Services</h1>
           <p>We customize uniforms for various sectors. These include:</p>
           <ul className='list-disc p-12'>
             <li>School Uniforms</li>
@@ -68,7 +68,7 @@ const Body = () => {
         </div>
         {/* hook */}
         <div className='flex flex-col gap-8'>
-          <p>If quality services, and a company that understands your goal, vision is what you desire? Then you are at the right place. Let us work together towards bringing your brand alive, owning your position in the competitive marketspace and increase your sales/patronage.
+          <p>If <span className='text-orange-700'>quality services</span>, and a company that understands your <span className='text-orange-700'>goal</span>, <span className='text-orange-700'>vision</span> is what you desire? Then you are at the right place. Let us work together towards bringing your brand alive, owning your position in the competitive marketspace and increase your <span className='text-orange-700'>sales/patronage</span>.
           </p>
           <motion.button className='sm:text-lg sm:p-2 bg-orange-700 text-white p-4 self-center rounded'
           transition={{
