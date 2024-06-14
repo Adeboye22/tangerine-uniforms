@@ -1,6 +1,7 @@
 import React,{useEffect} from 'react';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
+import { motion } from 'framer-motion';
 import Uni1 from '../assets/Uni_1.jpg';
 import Uni2 from '../assets/Uni_2.jpg';
 import Uni3 from '../assets/Uni_3.jpg';
@@ -18,8 +19,16 @@ const Body = () => {
       once: true, // Whether animation should happen only once - while scrolling down
     });
   }, []);
+
+  // this function sends users to whatsapp
+  const WhatsApp = () => {
+    return(
+      window.open("https://wa.link/f2qx19")
+    )
+  }
+
   return (
-    <div data-aos='fade-up' className='text-gray-950 p-12 text-xl flex flex-col gap-8'>
+    <div data-aos='fade-up' className='sm:p-6 sm:text-lg text-gray-950 p-12 text-xl flex flex-col gap-8'>
         <div>
             <p>We are not just regular uniform makers. We bear the interest of your brand in our minds, thereby creating visually appealing uniforms increasing patronage and sales.</p> 
         </div>
@@ -42,26 +51,36 @@ const Body = () => {
         {/* images */}
         <div data-aos='zoom-in' className='flex flex-col gap-12 place-items-center pb-14'>
           <div className='flex flex-row gap-4'>
-            <img src={Uni2} alt="" className='h-80 border-2 border-orange-700 rounded'/>
-            <img src={Uni3} alt="" className='h-80 border-2 border-orange-700 rounded'/>
-            <img src={Uni4} alt="" className='h-80 border-2 border-orange-700 rounded'/>
+            <img src={Uni2} alt="" className='sm:h-32 sm:w-24 h-80 border-2 border-orange-700 rounded'/>
+            <img src={Uni3} alt="" className='sm:h-32 sm:w-24 h-80 border-2 border-orange-700 rounded'/>
+            <img src={Uni4} alt="" className='sm:h-32 sm:w-24 h-80 border-2 border-orange-700 rounded'/>
           </div>
           <div className='flex flex-row gap-4'>
-            <img src={Uni5} alt="" className='h-80 border-2 border-orange-700 rounded'/>
-            <img src={Uni6} alt="" className='h-80 border-2 border-orange-700 rounded'/>
-            <img src={Uni7} alt="" className='h-80 border-2 border-orange-700 rounded'/>
+            <img src={Uni5} alt="" className='sm:h-32 sm:w-24 h-80 border-2 border-orange-700 rounded'/>
+            <img src={Uni6} alt="" className='sm:h-32 sm:w-24 h-80 border-2 border-orange-700 rounded'/>
+            <img src={Uni7} alt="" className='sm:h-32 sm:w-24 h-80 border-2 border-orange-700 rounded'/>
           </div>
           <div className='flex flex-row gap-4'>
-            <img src={Uni8} alt="" className='h-80 border-2 border-orange-700 rounded'/>
-            <img src={Uni1} alt="" className='h-80 border-2 border-orange-700 rounded'/>
-            <img src={Uni10} alt="" className='h-80 border-2 border-orange-700 rounded'/>
+            <img src={Uni8} alt="" className='sm:h-32 sm:w-24 h-80 border-2 border-orange-700 rounded'/>
+            <img src={Uni1} alt="" className='sm:h-32 sm:w-24 h-80 border-2 border-orange-700 rounded'/>
+            <img src={Uni10} alt="" className='sm:h-32 sm:w-24 h-80 border-2 border-orange-700 rounded'/>
           </div>
         </div>
         {/* hook */}
         <div className='flex flex-col gap-8'>
           <p>If quality services, and a company that understands your goal, vision is what you desire? Then you are at the right place. Let us work together towards bringing your brand alive, owning your position in the competitive marketspace and increase your sales/patronage.
           </p>
-          <button className='bg-orange-700 text-white p-4 rounded self-center'>Contact Us</button>
+          <motion.button className='sm:text-lg sm:p-2 bg-orange-700 text-white p-4 self-center rounded'
+          transition={{
+            duration:0.5,
+            delay:0.5
+          }}
+          whileHover={{
+            scale:1.5,
+          }}
+          onClick={WhatsApp}>
+            Contact us
+          </motion.button>
         </div>
     </div>
   )
