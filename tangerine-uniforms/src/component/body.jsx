@@ -33,7 +33,7 @@ const Body = () => {
             <p>We are not just regular uniform makers. We bear the interest of your brand in our minds, thereby creating visually appealing uniforms increasing patronage and sales.</p> 
         </div>
         <div>
-          We have worked with over <span className='text-orange-700 font-bold'>100 businesses</span> local and international improving their brand identity and recognition. We take pride in our quality services, and premium delivery method. Reviews from our clients show that our customized uniforms and outfits have helped increase sales by 15%.
+          We have worked with over <span className='text-orange-700 font-bold'>100 businesses</span> local and international improving their brand identity and recognition. We take pride in our quality services, and premium delivery method. Reviews from our clients show that our customized uniforms and outfits have helped increase <span className='text-orange-700'>sales</span> by <span className='text-orange-700 font-bold'>15%</span>.
         </div>
         <div>
           <h1 className='font-bold'>Our Services</h1>
