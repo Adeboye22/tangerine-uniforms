@@ -24,10 +24,10 @@ const Hero = () => {
             opacity:0.4
           }}>We create customized uniforms for businesses, brands, organizations.</motion.h1>
         <div className='sm:justify-between sm:px-4 sm:text-xs sm:pb-4 flex flex-row gap-8 px-12 text-green-700 self-center'>
-          <p className='sm:text-center cursor-pointer'>School Uniforms</p>
-          <p className='sm:text-center cursor-pointer'> Work Place Outfits</p>
-          <p className='sm:text-center cursor-pointer'>Catering wears</p>
-          <p className='sm:text-center cursor-pointer'>Sport Wears</p>
+          <p className='sm:text-center cursor-pointer'>Work wears</p>
+          <p className='sm:text-center cursor-pointer'>School uniforms</p>
+          <p className='sm:text-center cursor-pointer'>Catering uniforms</p>
+          <p className='sm:text-center cursor-pointer'>Branded t-shirts and polos</p>
         </div>
         <motion.button className='sm:text-lg sm:p-2 bg-orange-700 text-white p-4 self-center rounded'
         transition={{

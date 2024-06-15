@@ -10,7 +10,10 @@ import Uni5 from '../assets/Uni_5.jpg';
 import Uni6 from '../assets/Uni_6.jpg';
 import Uni7 from '../assets/Uni_7.jpg';
 import Uni8 from '../assets/Uni_8.jpg';
-import Uni10 from '../assets/Uni_10.jpg'
+import Uni10 from '../assets/Uni_10.jpg';
+import Rev5 from '../assets/Rev5.jpg';
+import Rev6 from '../assets/Rev6.jpg';
+import Rev8 from '../assets/Rev8.jpg';
 
 const Body = () => {
   useEffect(() => {
@@ -39,11 +42,11 @@ const Body = () => {
           <h1 className='font-bold'>Our Services</h1>
           <p>We customize uniforms for various sectors. These include:</p>
           <ul className='list-disc p-12'>
+            <li>Work wears</li>
             <li>School Uniforms</li>
-            <li>Workplace Outfits</li>
-            <li>Sport Wears</li>
-            <li>Chef Uniforms</li>
             <li>Catering uniforms</li>
+            <li>Branded t-shirts and polos</li>
+            <li>Sports wear</li>
             <li>Customized coveralls for engineering purposes</li>
             <li>Cleaning wears, etc</li>
           </ul>
@@ -64,6 +67,19 @@ const Body = () => {
             <img src={Uni8} alt="" className='sm:h-32 sm:w-24 h-80 border-2 border-orange-700 rounded'/>
             <img src={Uni1} alt="" className='sm:h-32 sm:w-24 h-80 border-2 border-orange-700 rounded'/>
             <img src={Uni10} alt="" className='sm:h-32 sm:w-24 h-80 border-2 border-orange-700 rounded'/>
+          </div>
+        </div>
+        {/* reviews */}
+        <div data-aos='fade-up'>
+          <h1 className='text-gray-950 font-bold'>Reviews from our clients</h1>
+          <p>See what our clients have to say about our services:</p>
+          <div className='pt-8'>
+            <div className='sm:flex-col sm:gap-12 flex flex-row'>
+              <img src={Rev5} alt="" />
+              <img src={Rev6} alt="" />
+              <img src={Rev8} alt="" />
+            </div>
+            <div></div>
           </div>
         </div>
         {/* hook */}
