@@ -74,7 +74,7 @@ const Body = () => {
           <h1 className='text-gray-950 font-bold'>Reviews from our clients</h1>
           <p>See what our clients have to say about our services:</p>
           <div className='pt-8'>
-            <div className='sm:flex-col sm:gap-12 flex flex-row'>
+            <div className='sm:flex-col sm:gap-12 flex flex-col'>
               <img src={Rev5} alt="" />
               <img src={Rev6} alt="" />
               <img src={Rev8} alt="" />
