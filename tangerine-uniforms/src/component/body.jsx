@@ -33,7 +33,7 @@ const Body = () => {
   return (
     <div data-aos='fade-up' className='sm:p-6 sm:text-lg text-gray-950 p-12 text-xl flex flex-col gap-8'>
         <div>
-            <p>Make a lasting impression. Professional, high-quality branded uniforms from<span className='text-orange-700'>Tangerine Uniforms</span> are more than just clothing. They are a walking billboard that promotes your brand identity, fosters team spirit, and builds trust with your clients. We don't do one-size-fits-all.'</p> 
+            <p>Make a lasting impression. Professional, high-quality branded uniforms from <span className='text-orange-700'>Tangerine Uniforms</span> are more than just clothing. They are a walking billboard that promotes your brand identity, fosters team spirit, and builds trust with your clients. We don't do one-size-fits-all.'</p> 
         </div>
         <div>
           <p>
