@@ -77,9 +77,9 @@ const Body = () => {
           <p>See what our clients have to say about our services:</p>
           <div className='pt-8'>
             <div className='sm:flex-col sm:gap-12 flex flex-row place-content-center'>
-              <img src={Rev5} alt="" className='sm:h-32 sm:w-24 h-80'/>
-              <img src={Rev6} alt="" className='sm:h-32 sm:w-24 h-80'/>
-              <img src={Rev8} alt="" className='sm:h-32 sm:w-24 h-80'/>
+              <img src={Rev5} alt="" className='sm:h-32 sm:w-24 h-80 w-64'/>
+              <img src={Rev6} alt="" className='sm:h-32 sm:w-24 h-80 w-64'/>
+              <img src={Rev8} alt="" className='sm:h-32 sm:w-24 h-80 w-64'/>
             </div>
             <div></div>
           </div>
