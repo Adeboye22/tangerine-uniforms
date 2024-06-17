@@ -27,7 +27,7 @@ const Hero = () => {
           <p className='sm:text-center cursor-pointer'>Work wears</p>
           <p className='sm:text-center cursor-pointer'>School uniforms</p>
           <p className='sm:text-center cursor-pointer'>Catering uniforms</p>
-          <p className='sm:text-center cursor-pointer'>Branded t-shirts and polos</p>
+          <p className='sm:text-center cursor-pointer'>Branded shirts and polos</p>
         </div>
         <motion.button className='sm:text-lg sm:p-2 bg-orange-700 text-white p-4 self-center rounded'
         transition={{
