@@ -33,10 +33,12 @@ const Body = () => {
   return (
     <div data-aos='fade-up' className='sm:p-6 sm:text-lg text-gray-950 p-12 text-xl flex flex-col gap-8'>
         <div>
-            <p>We are not just regular uniform makers. We bear the interest of your brand in our minds, thereby creating visually appealing uniforms increasing patronage and sales.</p> 
+            <p>Make a lasting impression. Professional, high-quality branded uniforms <span className='text-orange-700'>Tangerine Uniforms</span> are more than just clothing. They are a walking billboard that promotes your brand identity, fosters team spirit, and builds trust with your clients. We don't do one-size-fits-all.'</p> 
         </div>
         <div>
-          We have worked with over <span className='text-orange-700 font-bold'>100 businesses</span> local and international improving their brand identity and recognition. We take pride in our quality services, and premium delivery method. Reviews from our clients show that our customized uniforms and outfits have helped increase <span className='text-orange-700'>sales</span> by <span className='text-orange-700 font-bold'>15%</span>.
+          <p>
+            Our custom uniform design process ensures your uniforms reflect your unique brand and culture. Whether you need uniforms/work wears for your organization staffs, school students, or catering staffs, we will create uniforms that are both <span className='text-orange-700'>stylish</span> and <span className='text-orange-700'>functional</span>. We use only the finest materials to craft uniformms that are durable, comfortable and built to last. Your <span className='text-orange-700'>team</span> will look sharp and feel confident all day long.
+          </p>
         </div>
         <div>
           <h1 className='font-bold'>Our Services</h1>
@@ -84,7 +86,9 @@ const Body = () => {
         </div>
         {/* hook */}
         <div className='flex flex-col gap-8'>
-          <p>If <span className='text-orange-700'>quality services</span>, and a company that understands your <span className='text-orange-700'>goal</span>, <span className='text-orange-700'>vision</span> is what you desire? Then you are at the right place. Let us work together towards bringing your brand alive, owning your position in the competitive marketspace and increase your <span className='text-orange-700'>sales/patronage</span>.
+          <p>
+            Ready to take your brand to the next level? Contact us today for consultation!
+            Let's discuss how our branded uniforms can benefit your business.
           </p>
           <motion.button className='sm:text-lg sm:p-2 bg-orange-700 text-white p-4 self-center rounded'
           transition={{
