@@ -76,10 +76,10 @@ const Body = () => {
           <h1 className='text-gray-950 font-bold'>Reviews from our clients</h1>
           <p>See what our clients have to say about our services:</p>
           <div className='pt-8'>
-            <div className='sm:flex-col sm:gap-12 flex flex-col'>
-              <img src={Rev5} alt="" className='h-64 w-16'/>
-              <img src={Rev6} alt="" className='h-64 w-16'/>
-              <img src={Rev8} alt="" className='h-64 w-16'/>
+            <div className='sm:flex-col sm:gap-12 flex flex-row'>
+              <img src={Rev5} alt="" className='sm:h-32 sm:w-24 h-80'/>
+              <img src={Rev6} alt="" className='sm:h-32 sm:w-24 h-80'/>
+              <img src={Rev8} alt="" className='sm:h-32 sm:w-24 h-80'/>
             </div>
             <div></div>
           </div>
